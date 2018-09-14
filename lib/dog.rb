@@ -33,5 +33,6 @@ class Dog
       DB[:conn].execute(sql, self.name, self.breed)
       @id = DB[:conn].execute("SELECT id FROM dogs WHERE name = ?, breed = ?", self.name, self.breed)
     end
+  end
   
 end
