@@ -31,7 +31,7 @@ class Dog
         INSERT INTO dogs (name, breed) VALUES (?, ?)
       SQL
       DB[:conn].execute(sql, self.name, self.breed)
-      @id = DB[:conn].execute("SELECT id FROM dogs WHERE name = ?, breed = ?"
+      @id = DB[:conn].execute("SELECT id FROM dogs WHERE name = ?, breed = ?", self.name, self.breed)
     end
   
 end
