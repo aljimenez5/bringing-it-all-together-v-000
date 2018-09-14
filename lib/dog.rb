@@ -56,6 +56,8 @@ class Dog
     end
     doggo
   end
+  
+  def self.new_from_db()
     
     
   
