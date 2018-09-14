@@ -1,7 +1,7 @@
 class Dog 
   
-  def initialize(hash)
-    
+  def initialize(id: nil, name:, breed:)
+      
   end
   
 end
