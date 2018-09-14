@@ -39,9 +39,6 @@ class Dog
   
   def self.create(hash)
     self.new(name: hash[:name], breed: hash[:breed])
-      binding.pry
-    
-      
   end
   
 end
