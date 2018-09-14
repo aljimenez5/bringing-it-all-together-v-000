@@ -52,6 +52,9 @@ class Dog
         dog = self.new(dog_att[0], dog_att[1], dog_att[2])
       else
         dog = self.create(name: name, breed: breed)
+      end
+      dog
+    end
     
     
   
