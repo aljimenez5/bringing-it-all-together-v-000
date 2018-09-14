@@ -66,6 +66,8 @@ class Dog
     # binding.pry
     # #self.new_from_db(dog)
   end
+  
+  def update
     
   
 end
