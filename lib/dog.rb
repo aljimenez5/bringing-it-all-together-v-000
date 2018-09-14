@@ -50,6 +50,8 @@ class Dog
     dog = DB[:conn].execute("SELECT * FROM dogs WHERE name = ? AND breed = ?", name, breed).flatten
       if !dog.empty?
         self.new(dog[0], dog[1], dog[2])
+      else
+        self.create
     
     
   
