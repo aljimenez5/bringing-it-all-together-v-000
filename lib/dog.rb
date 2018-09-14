@@ -39,7 +39,7 @@ class Dog
   
   def self.create(hash)
     hash.each do |key, value| 
-      self.new(key: value)
+      # self.new(key: value)
       binding.pry
     end
       
