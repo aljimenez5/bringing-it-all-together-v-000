@@ -38,10 +38,9 @@ class Dog
   end
   
   def self.create(hash)
-    hash.each do |key, value| 
-      # self.new(key: value)
+    self.new(name: hash[:name])
       binding.pry
-    end
+    
       
   end
   
