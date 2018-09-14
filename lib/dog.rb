@@ -61,11 +61,11 @@ class Dog
     self.new(id: row[0], name: row[1], breed: row[2])
   end
   
-  def self.find_by_name
-    # dog = DB[:conn].execute("SELECT * FROM dogs WHERE name = ?", name).flatten
-    # binding.pry
-    # #self.new_from_db(dog)
-  end
+  # def self.find_by_name
+  #   # dog = DB[:conn].execute("SELECT * FROM dogs WHERE name = ?", name).flatten
+  #   # binding.pry
+  #   # #self.new_from_db(dog)
+  # end
   
   def update
     DB[:conn].execute("UPDATE dogs SET name = ?, breed =?", self.name, self.breed)
