@@ -51,7 +51,7 @@ class Dog
       if !dog.empty?
         self.new(dog[0], dog[1], dog[2])
       else
-        self.create
+        self.create(dog)
     
     
   
