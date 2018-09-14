@@ -41,4 +41,6 @@ class Dog
     self.new(name: hash[:name], breed: hash[:breed]).save
   end
   
+  def self.find_by_id
+  
 end
