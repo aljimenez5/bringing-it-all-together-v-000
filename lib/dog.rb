@@ -35,7 +35,7 @@ class Dog
   end
   
   def self.create(hash)
-    hash.each do |key, value|
+    #hash.each do |key, value|
       
   end
   
